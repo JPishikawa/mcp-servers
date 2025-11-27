@@ -19,3 +19,9 @@ data:
     "url": "http://slack-mcp.mcp-server.svc.cluster.local/mcp",
     "description": "A powerful and flexible Kubernetes Model Context Protocol (MCP) server implementation with support for Slack."
     }
+  Weather-MCP-Server: |
+    {
+    "url": "http://mcp-weather.mcp-server.svc.cluster.local/sse",
+    "transport": "sse",
+    "description": "A powerful and flexible Kubernetes Model Context Protocol (MCP) server implementation with support for Weather information."
+    }
